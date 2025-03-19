@@ -15,5 +15,25 @@ namespace BlazorShop.Api.Context
         public DbSet<Categoria>? Categorias { get; set; }
         public DbSet<Usuario>? Usuarios { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Categoria>().HasData(new Categoria
+             {
+                Id = 1,
+                Nome = "Beleza",
+                IconCSS = "fas fa-spa"
+              });
+            modelBuilder.Entity<Produto>().HasData(new Produto
+            {
+                Id=1,
+                Nome = "Glossier - Beleza Kit",
+                Descricao = "Um kit fornecido pela Natura, contendo produtos para pele",
+                ImagemUrl = "/Imagens/Beleza/Beleza1.png",
+                Preco = 100,
+                Quantidade = 100,
+                CategoriaId = 1
+            });
+            modelBuilder.Entity<Usuario>().HasData(new Usuario
+                )
     }
 }

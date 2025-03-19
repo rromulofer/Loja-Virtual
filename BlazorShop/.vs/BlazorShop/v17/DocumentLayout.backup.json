@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\romul\\OneDrive\\\u00C1rea de Trabalho\\C\u00D3DIGOS\\Loja-Virtual\\BlazorShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{824808E7-E640-4714-A766-5A01BA563EE8}|BlazorShop.Api\\BlazorShop.Api.csproj|c:\\users\\romul\\onedrive\\\u00E1rea de trabalho\\c\u00F3digos\\loja-virtual\\blazorshop\\blazorshop.api\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824808E7-E640-4714-A766-5A01BA563EE8}|BlazorShop.Api\\BlazorShop.Api.csproj|solutionrelative:blazorshop.api\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\romul\\OneDrive\\\u00C1rea de Trabalho\\C\u00D3DIGOS\\Loja-Virtual\\BlazorShop\\BlazorShop.Api\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorShop.Api\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\romul\\OneDrive\\\u00C1rea de Trabalho\\C\u00D3DIGOS\\Loja-Virtual\\BlazorShop\\BlazorShop.Api\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "BlazorShop.Api\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:58:11.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
